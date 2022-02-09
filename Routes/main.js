@@ -3,7 +3,7 @@ const router = express.Router()
 
 const {test} = require('../Controllers/main')
 
-router.all("/test", test)
+router.all("/", test)
 
 
 module.exports = router
